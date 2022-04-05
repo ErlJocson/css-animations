@@ -26,7 +26,13 @@ function Home() {
         </MySection>
         <Section>
           <p>
-            Clone the github repository <a href="#">here.</a>
+            Clone the github repository{" "}
+            <a
+              href="https://github.com/ErlJocson/CSS-Animation"
+              target={"_blank"}
+            >
+              here.
+            </a>
           </p>
         </Section>
       </main>
