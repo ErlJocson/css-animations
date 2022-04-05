@@ -17,7 +17,7 @@ function Navigation() {
 export default Navigation;
 
 const NavigationBar = styled.nav`
-  height: 60px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
