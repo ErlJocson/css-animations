@@ -7,8 +7,9 @@ function Navigation() {
 
   return (
     <NavigationBar>
-      <LeftItem to="/css-animations">Home</LeftItem>
-
+      <LeftItem onClick={() => setShowBurger(false)} to="/css-animations">
+        Home
+      </LeftItem>
       <BurgerNav show={showBurger}>
         <ListOFLink>
           <MyLink onClick={() => setShowBurger(!showBurger)} to="/slide">
