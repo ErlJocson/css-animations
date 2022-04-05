@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navigation from "./components/Navigation";
-import { Home, Slide, Reveal } from "./components/Pages";
+import { Home, Slide, Reveal, Jump, Spin } from "./components/Pages";
 
 function App() {
   return (
@@ -11,6 +11,8 @@ function App() {
           <Route element={<Home />} path="/css-animations" />
           <Route element={<Slide />} path="/slide" />
           <Route element={<Reveal />} path="/reveal" />
+          <Route element={<Jump />} path="/jump" />
+          <Route element={<Spin />} path="/spin" />
         </Routes>
       </Router>
     </>
