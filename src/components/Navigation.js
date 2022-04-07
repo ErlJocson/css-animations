@@ -48,6 +48,7 @@ const NavigationBar = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 0 2px 6px rgb(38, 38, 38);
   background-color: #2c2cff;
 `;
 
