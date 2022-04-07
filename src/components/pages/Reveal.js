@@ -22,6 +22,12 @@ function Reveal() {
           </CodeContainer>
         </Section>
         <Section>
+          <p>To increase the speed of the animation:</p>
+          <CodeContainer>
+            <RevealDIV className="reveal-fast">class="reveal-fast"</RevealDIV>
+          </CodeContainer>
+        </Section>
+        <Section>
           <p>
             Clone the github repo{" "}
             <a

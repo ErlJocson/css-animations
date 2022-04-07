@@ -20,6 +20,12 @@ function Spin() {
           </CodeContainer>
         </Section>
         <Section>
+          <p>To increase the speed of the animation:</p>
+          <CodeContainer>
+            <SpinDIV className="spin-fast">class="spin-fast"</SpinDIV>
+          </CodeContainer>
+        </Section>
+        <Section>
           <p>
             Clone the github repo{" "}
             <a

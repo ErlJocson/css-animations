@@ -29,6 +29,23 @@ function Slide() {
           </MyCodeContainer>
         </Section>
         <Section>
+          <p>To increase the speed of the animation:</p>
+          <MyCodeContainer>
+            <SlideDIV className="slide-in-from-top-fast">
+              class="slide-in-from-top-fast"
+            </SlideDIV>
+            <SlideDIV className="slide-in-from-left-fast">
+              class="slide-in-from-left-fast"
+            </SlideDIV>
+            <SlideDIV className="slide-in-from-right-fast">
+              class="slide-in-from-right-fast"
+            </SlideDIV>
+            <SlideDIV className="slide-in-from-bottom-fast">
+              class="slide-in-from-bottom-fast"
+            </SlideDIV>
+          </MyCodeContainer>
+        </Section>
+        <Section>
           <p>
             Clone the github repo{" "}
             <a
@@ -51,6 +68,8 @@ const MyCodeContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  height: 100px;
 `;
 
 const SlideDIV = styled.div`

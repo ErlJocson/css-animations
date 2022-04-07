@@ -42,6 +42,9 @@ code {
   animation: jump 700ms ease;
 }
 
+.jump-fast {
+  animation: jump 500ms ease;
+}
 /*  */
 
 @keyframes reveal {
@@ -58,10 +61,13 @@ code {
   animation: reveal 1s ease;
 }
 
-/*  */
+.reveal-fast {
+  animation: reveal 600ms ease;
+}
 
 /*  */
 
+/*  */
 @keyframes slide-in-from-left {
   0% {
     transform: translateX(-100px);
@@ -76,6 +82,10 @@ code {
 
 .slide-in-from-left {
   animation: slide-in-from-left 1s ease;
+}
+
+.slide-in-from-left-fast {
+  animation: slide-in-from-left 600ms ease;
 }
 
 /*  */
@@ -96,6 +106,10 @@ code {
   animation: slide-in-from-right 1s ease;
 }
 
+.slide-in-from-right-fast {
+  animation: slide-in-from-right 600ms ease;
+}
+
 /*  */
 
 @keyframes slide-in-from-top {
@@ -111,6 +125,10 @@ code {
 
 .slide-in-from-top {
   animation: slide-in-from-top 1s ease;
+}
+
+.slide-in-from-top-fast {
+  animation: slide-in-from-top 600ms ease;
 }
 
 /*  */
@@ -130,7 +148,22 @@ code {
   animation: slide-in-from-bottom 1s ease;
 }
 
+.slide-in-from-bottom-fast {
+  animation: slide-in-from-bottom 600ms ease;
+}
+
 /*  */
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+  to {
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+}
 
 @keyframes spin {
   from {
@@ -145,4 +178,8 @@ code {
 
 .spin {
   animation: spin 1s ease;
+}
+
+.spin-fast {
+  animation: spin 600ms ease;
 }

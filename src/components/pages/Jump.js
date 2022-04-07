@@ -21,6 +21,12 @@ function Jump() {
           </CodeContainer>
         </Section>
         <Section>
+          <p>To increase the speed of the animation:</p>
+          <CodeContainer>
+            <JumpDIV className="jump-fast">class="jump-fast"</JumpDIV>
+          </CodeContainer>
+        </Section>
+        <Section>
           <p>
             Clone the github repo{" "}
             <a
