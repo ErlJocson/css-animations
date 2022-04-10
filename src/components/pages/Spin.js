@@ -4,6 +4,8 @@ import PageHeader from "./components/PageHeader";
 import Section from "./components/Section";
 import CodeContainer from "./components/CodeContainer";
 import styled from "styled-components";
+// import Button from "./components/Button";
+
 function Spin() {
   return (
     <Container>

@@ -3,6 +3,7 @@ import Container from "./components/Container";
 import PageHeader from "./components/PageHeader";
 import Section from "./components/Section";
 import styled from "styled-components";
+// import Button from "./components/Button";
 
 function Slide() {
   return (
@@ -14,16 +15,16 @@ function Slide() {
         </Section>
         <Section>
           <MyCodeContainer>
-            <SlideDIV className="slide-in-from-top">
+            <SlideDIV className="slide-in-from-top normal">
               class="slide-in-from-top"
             </SlideDIV>
-            <SlideDIV className="slide-in-from-left">
+            <SlideDIV className="slide-in-from-left normal">
               class="slide-in-from-left"
             </SlideDIV>
-            <SlideDIV className="slide-in-from-right">
+            <SlideDIV className="slide-in-from-right normal">
               class="slide-in-from-right"
             </SlideDIV>
-            <SlideDIV className="slide-in-from-bottom">
+            <SlideDIV className="slide-in-from-bottom normal">
               class="slide-in-from-bottom"
             </SlideDIV>
           </MyCodeContainer>
@@ -69,7 +70,7 @@ const MyCodeContainer = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  min-height: 100px;
 `;
 
 const SlideDIV = styled.div`
